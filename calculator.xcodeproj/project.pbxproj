@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		634D84DC2821632200EFF34B /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634D84DB2821632200EFF34B /* AppDelegate.swift */; };
 		634D84DE2821632200EFF34B /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634D84DD2821632200EFF34B /* SceneDelegate.swift */; };
-		634D84E02821632200EFF34B /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634D84DF2821632200EFF34B /* ViewController.swift */; };
+		634D84E02821632200EFF34B /* CalculatorViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 634D84DF2821632200EFF34B /* CalculatorViewController.swift */; };
 		634D84E32821632200EFF34B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634D84E12821632200EFF34B /* Main.storyboard */; };
 		634D84E52821632500EFF34B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 634D84E42821632500EFF34B /* Assets.xcassets */; };
 		634D84E82821632500EFF34B /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 634D84E62821632500EFF34B /* LaunchScreen.storyboard */; };
@@ -19,7 +19,7 @@
 		634D84D82821632200EFF34B /* calculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = calculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		634D84DB2821632200EFF34B /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		634D84DD2821632200EFF34B /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		634D84DF2821632200EFF34B /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		634D84DF2821632200EFF34B /* CalculatorViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalculatorViewController.swift; sourceTree = "<group>"; };
 		634D84E22821632200EFF34B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		634D84E42821632500EFF34B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		634D84E72821632500EFF34B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -56,15 +56,31 @@
 		634D84DA2821632200EFF34B /* calculator */ = {
 			isa = PBXGroup;
 			children = (
-				634D84DB2821632200EFF34B /* AppDelegate.swift */,
-				634D84DD2821632200EFF34B /* SceneDelegate.swift */,
-				634D84DF2821632200EFF34B /* ViewController.swift */,
+				634D84F1282163E000EFF34B /* Supporting Filse */,
+				634D84EF2821636F00EFF34B /* Delegates */,
+				634D84DF2821632200EFF34B /* CalculatorViewController.swift */,
 				634D84E12821632200EFF34B /* Main.storyboard */,
-				634D84E42821632500EFF34B /* Assets.xcassets */,
-				634D84E62821632500EFF34B /* LaunchScreen.storyboard */,
 				634D84E92821632500EFF34B /* Info.plist */,
 			);
 			path = calculator;
+			sourceTree = "<group>";
+		};
+		634D84EF2821636F00EFF34B /* Delegates */ = {
+			isa = PBXGroup;
+			children = (
+				634D84DB2821632200EFF34B /* AppDelegate.swift */,
+				634D84DD2821632200EFF34B /* SceneDelegate.swift */,
+			);
+			path = Delegates;
+			sourceTree = "<group>";
+		};
+		634D84F1282163E000EFF34B /* Supporting Filse */ = {
+			isa = PBXGroup;
+			children = (
+				634D84E42821632500EFF34B /* Assets.xcassets */,
+				634D84E62821632500EFF34B /* LaunchScreen.storyboard */,
+			);
+			path = "Supporting Filse";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -138,7 +154,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				634D84E02821632200EFF34B /* ViewController.swift in Sources */,
+				634D84E02821632200EFF34B /* CalculatorViewController.swift in Sources */,
 				634D84DC2821632200EFF34B /* AppDelegate.swift in Sources */,
 				634D84DE2821632200EFF34B /* SceneDelegate.swift in Sources */,
 			);
@@ -287,6 +303,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6923PJ958M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = calculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -314,6 +331,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 6923PJ958M;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = calculator/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
